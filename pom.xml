@@ -12,13 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <junit.jupiter.version>5.10.3</junit.jupiter.version>
         <assertj.version>3.26.3</assertj.version>
-        <maven.maven-surefire-plugin.version>2.22.2</maven.maven-surefire-plugin.version>
-        <maven.compiler.release>${java.version}</maven.compiler.release>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
     </properties>
 
     <dependencies>
